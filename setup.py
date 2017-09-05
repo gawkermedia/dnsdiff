@@ -10,4 +10,6 @@ setup(
   download_url = 'https://github.com/gawkermedia/dnsdiff/archive/0.1.tar.gz', # I'll explain this in a second
   keywords = ['testing', 'dns',], # arbitrary keywords
   classifiers = [],
+  install_requires=['dnspython']
+
 )
