@@ -30,7 +30,7 @@ def compare_dns(nameservers, domain):
 
 	differences = set.difference(*set_list)
 
-	if len(differences) == 0:
+	if len(differences) == 0 or len(nameservers) == 1:
 		print "No discrepancies found"
 		sys.exit(0)
 	else:
