@@ -10,13 +10,11 @@ Quickly suss out discrepancies between nameservers
 
 Output:
 
-    {   'lol.test':
-    [   DNS name gina.ns.cloudflare.com.,
-
-    DNS name will.ns.cloudflare.com.]}
+    {   'nameserver.dns1.net': [DNS name gina.ns.cloudflare.com., DNS name will.ns.cloudflare.com.],
+        'nameserver.dns2.net': [DNS name gina.ns.cloudflare.com., DNS name will.ns.cloudflare.com.]
+        'nameserver.dns3.net': [DNS name gina.ns.cloudflare.com., DNS name will.ns.cloudflare.com.]}
 
     Determining differences
-
     No discrepancies found
 
 # Usage 
