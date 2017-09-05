@@ -37,10 +37,3 @@ def compare_dns(nameservers, domain):
 		print "Discrepancies found!"
 		print differences
 		sys.exit(1)
-
-parser = argparse.ArgumentParser(description='Quickly look up and compare NS records for a domain across multiple ')
-parser.add_argument('-n', '--nameservers', type=str, nargs='+', help="A list of the nameservers you want to test")
-parser.add_argument('-d', '--domain', type=str, nargs=1)
-args = parser.parse_args()
-
-compare_dns(args.nameservers, args.domain[0])
