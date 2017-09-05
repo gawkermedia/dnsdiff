@@ -10,8 +10,8 @@ Quickly suss out discrepancies between nameservers
 
 Output:
 
-{   'lol.test': [   <DNS name gina.ns.cloudflare.com.>,
-                    <DNS name will.ns.cloudflare.com.>]}
+{   'lol.test': [   DNS name gina.ns.cloudflare.com.,
+                    DNS name will.ns.cloudflare.com.]}
 Determining differences
 No discrepancies found
 
