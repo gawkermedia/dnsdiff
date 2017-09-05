@@ -2,7 +2,7 @@ from distutils.core import setup
 setup(
   name = 'dnsdiff',
   packages = ['dnsdiff'], # this must be the same as the name above
-  version = '0.1',
+  version = '0.2',
   description = 'Utility to quickly suss out discrepancies between nameservers',
   author = 'M Anzuoni',
   author_email = 'me.anzuoni@gmail.com',
