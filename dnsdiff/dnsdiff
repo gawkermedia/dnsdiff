@@ -47,6 +47,7 @@ parser.add_argument('-n', '--nameservers', type=str, nargs='+', help="A list of 
 parser.add_argument('-d', '--domain', type=str, nargs=1)
 args = parser.parse_args()
 
+# No args throws an exception rather than bringing up usuage
 if len(sys.argv) > 1:
 	dnsdiff.compare_dns(args.nameservers, args.domain[0])
 else:
