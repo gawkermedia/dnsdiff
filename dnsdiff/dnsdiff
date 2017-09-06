@@ -49,7 +49,7 @@ args = parser.parse_args()
 
 # No args throws an exception rather than bringing up usuage
 if len(sys.argv) > 1:
-	dnsdiff.compare_dns(args.nameservers, args.domain[0])
+	compare_dns(args.nameservers, args.domain[0])
 else:
 	print "Missing required arguments. Please refer to 'dnsdiff -h' for usuage "
 	sys.exit(1)
