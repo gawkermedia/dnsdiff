@@ -8,7 +8,7 @@ setup(
   author = 'M Anzuoni',
   author_email = 'me.anzuoni@gmail.com',
   url = 'https://github.com/gawkermedia/dnsdiff', # use the URL to the github repo
-  download_url = 'https://github.com/gawkermedia/dnsdiff/archive/1.1.tar.gz', # I'll explain this in a second
+  download_url = 'https://github.com/gawkermedia/dnsdiff/archive/1.2.tar.gz', # I'll explain this in a second
   keywords = ['testing', 'dns',], # arbitrary keywords
   classifiers = [],
   install_requires=['dnspython']
